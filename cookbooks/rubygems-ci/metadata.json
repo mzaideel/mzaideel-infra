@@ -1,0 +1,36 @@
+{
+  "name": "rubygems-ci",
+  "description": "A fabulous new cookbook",
+  "long_description": "",
+  "maintainer": "RubyGems.org ops team",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "none",
+  "platforms": {
+  },
+  "dependencies": {
+    "chef-vault": ">= 0.0.0",
+    "dnsimple": ">= 0.0.0",
+    "jenkins": ">= 0.0.0",
+    "nginx": ">= 0.0.0",
+    "rubygems": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.10",
+  "source_url": "",
+  "issues_url": ""
+}

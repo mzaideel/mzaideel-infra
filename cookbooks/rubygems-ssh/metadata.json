@@ -1,0 +1,33 @@
+{
+  "name": "rubygems-ssh",
+  "description": "A fabulous new cookbook",
+  "long_description": "",
+  "maintainer": "RubyGems.org ops team",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "none",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+    "openssh": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.5",
+  "source_url": "",
+  "issues_url": ""
+}

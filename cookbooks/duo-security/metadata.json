@@ -1,0 +1,33 @@
+{
+  "name": "duo-security",
+  "description": "Installs/Configures duo-security",
+  "long_description": "duo-security Cookbook\n=====================\nThis cookbook is used to install and configure duosecurity's login_duo application which enables two factor authentication on your servers.\n\nYou can find the manual installation/configuration steps here:\n https://www.duosecurity.com/docs/duounix\n\nCaveats\n-------\n- This cookbook has been tested on Debian 6.0.4 and 7.0, several Ubuntu platforms, as well as CentOS and RHEL.\n\nNote: This cookbook does not currently work on Ubuntu 9.04.\n\nRequirements\n------------\n-This cookbook requires the openssh cookbook for the ssh configuration potion.\n-This cookbook requires the build-essential cookbook. Certain OS's can require package dependencies and may vary depending on which version of the OS you are running.\n-This cookbook installs the following libraries: libssl-dev and libpam-dev.\ne.g.\n\n#### packages\n- `libssl-dev` - Duo Security requires that this package be installed.\n- `libpam-dev` - Duo Security requires that this package be installed.\n\nAttributes\n----------\nThis cookbook uses several default attributes for the installation/configuration of duo security's duo_unix app.\nYou can override these default attributes through direct node attributes if you would like.\nIt may be beneficial to use your own node attributes for different environments -- for example: a group of database servers with their own roles.\n\nI recommend that you use a different 'integration' for each environment that you use in your infrastructure.\n\nMore on integrations here: https://www.duosecurity.com/docs/getting_started\n\ne.g.\n#### duo-security/attributes/default.rb\ndefault['duosecurity']['ikey']\ndefault['duosecurity']['skey']\ndefault['duosecurity']['host']\ndefault['openssh']['server']['force_command']\n\nUsage\n-----\n#### duo-security::default\nThere is only one cookbook at this time. This automates everything for you.\n\ne.g.\nJust include `duo-security` in your node's `run_list`:\n\n```json\n{\n  \"name\":\"my_node\",\n  \"run_list\": [\n    \"recipe[duo-security]\"\n  ]\n}\n```\n\nContributing\n------------\n\ne.g.\n1. Fork the repository on Github\n2. Create a named feature branch (like `add_component_x`)\n3. Write you change\n4. Write tests for your change (if applicable)\n5. Run the tests, ensuring they all pass\n6. Submit a Pull Request using Github\n\nLicense and Authors\n-------------------\nAuthor:: [Eli Taylor] (<etaylor@kickbackpoints.com>)\nTwitter:: @elijtayor\nIRC:: Liquid-- on freenode\n\nCopyright 2013, KickBack Points, LLC\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n",
+  "maintainer": "KickBack Points, LLC",
+  "maintainer_email": "etaylor@kickbackpoints.com",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+    "openssh": ">= 0.0.0",
+    "build-essential": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.1",
+  "source_url": "",
+  "issues_url": ""
+}

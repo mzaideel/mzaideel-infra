@@ -1,0 +1,46 @@
+{
+  "name": "rubygems",
+  "description": "RubyGems base recipes",
+  "long_description": "",
+  "maintainer": "RubyGems.org Ops Team",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "MIT",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+    "rubygems-apt": ">= 0.0.0",
+    "rubygems-chef": ">= 0.0.0",
+    "rubygems-cloud-init": ">= 0.0.0",
+    "rubygems-hostname": ">= 0.0.0",
+    "rubygems-hosts": ">= 0.0.0",
+    "rubygems-logging": ">= 0.0.0",
+    "rubygems-metrics": ">= 0.0.0",
+    "rubygems-motd": ">= 0.0.0",
+    "rubygems-ntp": ">= 0.0.0",
+    "rubygems-people": ">= 0.0.0",
+    "rubygems-sensu": ">= 0.0.0",
+    "rubygems-ssh": ">= 0.0.0",
+    "rubygems-utility": ">= 0.0.0",
+    "ohai": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.27",
+  "source_url": "",
+  "issues_url": ""
+}

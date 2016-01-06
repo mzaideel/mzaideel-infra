@@ -1,0 +1,17 @@
+{
+    "id": "mzaideel",
+    "username": "mzaideel",
+    "comment": "MZaideel",
+    "password": "$1$kjbAvpUx$mBne7jqRAinTr3/sA8NAr.",
+    "has_recipe": true,
+    "admin" : true,
+    "deployer": true,
+    "environments": [
+      "common",
+      "staging",
+      "production"
+    ],
+    "ssh_keys": [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDnYrR/M34SvpSlEwEDR0gzdN7zOuWgr0vuM+Bd2egn+5/qFuvyBs4YVVSJ5SAVai24aBor+0taUWY7NL+Krd0OlLh1ne8N5C/A7eFpPvKKJ0DXSvuihiIUh4vYcjLFFjGh41/9ANDO8rH3x+mOj6qoF9Z4mLG+AWqF3IL6WQ6bycSSii/3tm4OPpXAZic2WRmmgZGELDKU1aoI153TFkexPlCChglr+2jZ3ZfB7jIghNmRaXB8vD09K/iJcJfLY4lBZZtjLJ9Rml3GHEdBEsaWd1gvFroFhubGWBaesx9uyuuYVU+bcJHO+qtGaiJp52rIxUvHH+9lQY9WqrxitAT8DumKPyxR6hBvPcDyL44p53fPOiAzIJQgSHZwHb2p8+OlkIbdkIvNYh1BhV8YKnWuV/Fjj7Cpvr3KRLGhpNuYvXuR5AIhSV9lASVnjtEhBE68fbcdDifqMExlpLj8wm/l2acirYR8jjf5UEmxVGOhQlr3IEHxiLy+oHX0aAAFH0QfBhTeMVAK7i77kWjgFxofWv5XtMabPRlld1UVT6MElh8h7bOpLrnADpBeU7iNkI+N7g8Qkpf3qLblI1mT7eocOfJd2y+zgxZlqMb0khZpcb9Veg2xpVRas53Xm9mVgBUdd7UvdbEVXiXhQZZzIfKzG43L8CGb+RSscfgCpSsC5Q== mzaideel"
+    ]
+}

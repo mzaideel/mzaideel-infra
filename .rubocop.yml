@@ -1,0 +1,26 @@
+AllCops:
+  Exclude:
+    - vendor/**/*
+    - /**/files/**/*
+    - cookbooks/rubygems-chef/templates/default/librato.rb
+    - cookbooks/rubygems-chef/templates/default/slack.rb
+
+Encoding:
+  Enabled: false
+SingleSpaceBeforeFirstArg:
+  Enabled: false
+NumericLiterals:
+  Enabled: false
+LineLength:
+  Enabled: false
+Style/WordArray:
+  MinSize: 2
+Style/RescueModifier:
+  Enabled: false
+
+Style/AndOr:
+  Exclude:
+    - cookbooks/dnsimple/providers/record.rb
+Style/Next:
+  Exclude:
+    - cookbooks/dnsimple/providers/record.rb

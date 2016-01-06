@@ -1,0 +1,34 @@
+{
+  "name": "dnsimple",
+  "description": "A fabulous new cookbook",
+  "long_description": "",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "dnsimple": "Installs dnsimple-ruby gem to use w/ the dnsimple_record"
+  },
+  "version": "0.5.5",
+  "source_url": "",
+  "issues_url": ""
+}

@@ -1,0 +1,31 @@
+{
+  "name": "rubygems-hosts",
+  "description": "Configures /etc/hosts with all nodes in the current environment",
+  "long_description": "",
+  "maintainer": "RubyGems.org ops team",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "none",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.8",
+  "source_url": "",
+  "issues_url": ""
+}

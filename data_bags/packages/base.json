@@ -1,0 +1,14 @@
+{
+  "id": "base",
+  "packages": [
+    "apt-file",
+    "curl",
+    "htop",
+    "iotop",
+    "molly-guard",
+    "strace",
+    "tig",
+    "vim",
+    "wget"
+  ]
+}
