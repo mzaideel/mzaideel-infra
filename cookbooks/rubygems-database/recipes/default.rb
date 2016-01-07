@@ -34,6 +34,3 @@ node.default['postgresql']['pg_hba'] = [
 include_recipe 'postgresql::server'
 include_recipe 'postgresql::ruby'
 
-include_recipe 'rubygems-backups::postgresql'
-
-include_recipe 'rubygems-metrics::postgresql'
