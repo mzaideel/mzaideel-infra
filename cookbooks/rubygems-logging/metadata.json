@@ -9,7 +9,6 @@
     "ubuntu": ">= 0.0.0"
   },
   "dependencies": {
-    "chef-vault": ">= 0.0.0",
     "rsyslog": ">= 0.0.0"
   },
   "recommendations": {

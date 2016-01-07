@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "chef-client": ">= 0.0.0",
-    "chef-vault": ">= 0.0.0",
     "omnibus_updater": ">= 0.0.0"
   },
   "recommendations": {
