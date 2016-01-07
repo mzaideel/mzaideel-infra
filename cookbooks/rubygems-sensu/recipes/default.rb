@@ -10,7 +10,7 @@ include_recipe 'sensu'
 
 # this will only ever return a single 'ip' key since node comes from
 # the node name and is therefore unique.
-monitoring_host = search('node', 'name:monitoring01.common.rubygems.org')
+monitoring_host = search('node', 'name:monitoring01.common.zaideel.com')
 
 # set the address of the host to the local ipaddress if the node doesn't
 # exist in chef's index yet since it's being boostrapped.

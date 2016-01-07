@@ -9,7 +9,7 @@ else
 end
 
 host = data_bag_item('hosts', 'database')['environments'][search_environment]
-db_host = search('node', "name:#{host}.#{search_environment}.rubygems.org")[0]
+db_host = search('node', "name:#{host}.#{search_environment}.zaideel.com")[0]
 secrets = chef_vault_item('rubygems', search_environment)
 
 db_connection = "-H #{db_host['ipaddress']} --dbuser=#{secrets['rails_postgresql_user']} --dbpass=#{db_host['postgresql']['password']['postgres']} -db rubygems_#{search_environment}"
