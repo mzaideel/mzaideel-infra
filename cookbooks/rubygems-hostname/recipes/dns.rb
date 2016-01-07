@@ -18,11 +18,11 @@ else
 end
 
 dns_record "create record for #{node.name}" do
-  name node.name.sub('.rubygems.org', '')
+  name node.name.sub('.zaideel.com', '')
   value value
   type type
-  domain 'rubygems.org'
-  zone_id 'Z3ME4ZZV9EACZN'
+  domain 'zaideel.com'
+  zone_id 'ZOD6V4764JM3K'
   credentials(
     route53: { aws_access_key_id: aws_credentials['access_key_id'], aws_secret_access_key: aws_credentials['secret_access_key'] }
   )
